@@ -340,6 +340,7 @@ function App() {
     const reset = () => {
       setcount(0)
       setlock(0)
+      setwon("Won!")
       setb(["","","","","","","","","",""])
       settitledisplay({display:'flex'})
       setwinnerdisplay({display:'none'})
