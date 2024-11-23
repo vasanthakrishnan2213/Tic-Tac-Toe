@@ -341,7 +341,7 @@ function App() {
       setcount(0)
       setlock(0)
       setwinner("")
-      setwon("")
+      setwon("Won!")
       setb(["","","","","","","","","",""])
       settitledisplay({display:'flex'})
       setwinnerdisplay({display:'none'})
